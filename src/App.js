@@ -1,17 +1,21 @@
 import React from "react";
+import './App.css';
 // TODO: import useFormik from formik library
 import { useFormik } from 'formik';
 function App() {
   // TODO: add a const called formik assigned to useFormik()
-  const formik = useFormik()
-
   return (
     <div>
-      <p>
-        The app is ready! You can proceed with the task instructions. TODO:
-        build you form here.
-      </p>
-    </div>
+      <form>
+        <div>Name</div>
+        <input id="name" type="text">
+        <div>Email</div>
+        <input id="email" type="text">
+        <div>Password</div>
+        <input id="password" type="text">
+        <button type="submit">Submit<button>
+    </form>
+  </div>
   );
 }
 
