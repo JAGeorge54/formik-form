@@ -8,12 +8,12 @@ function App() {
     <div>
       <form>
         <div>Name</div>
-        <input id="name" type="text">
+        <input id="name" type="text"/>
         <div>Email</div>
-        <input id="email" type="text">
+        <input id="email" type="text"/>
         <div>Password</div>
-        <input id="password" type="text">
-        <button type="submit">Submit<button>
+        <input id="password" type="text"/>
+        <button type="submit">Submit</button>
     </form>
   </div>
   );
